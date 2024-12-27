@@ -62,6 +62,10 @@ O projeto foi desenvolvido no VSC (Visual Studio Code), sendo assim, instale o V
 
 Vá até a paste a abra a pasta do projeto. Após abrir o projeto abra um terminal, pode ser o integrado com o VSC, navegue até a pasta `env/Prod`  e execute o comando `terraform init` dentro dela, agora temos o Terraform iniciado e podemos começar a utilizá-lo. Para criar a infraestrutura, execute o `terraform apply` na pastas de Produção (`env/Prod`).
 
+
+## 🛠️ IMPORTANTE
+
+É necessário criar um bucket S3 na (AWS) com o nome definido em Backend.tf (ex. bucket = "terraform-state-alurah")
   
 
 🏆
